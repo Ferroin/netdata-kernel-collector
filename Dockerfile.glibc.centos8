@@ -1,4 +1,4 @@
-FROM rockylinux/rockylinux:8.5 AS build
+FROM rockylinux/rockylinux:8.5.20220328 AS build
 
 ARG ARCH=x86
 ENV ARCH=$ARCH
